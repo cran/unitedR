@@ -1,6 +1,6 @@
 Package: unitedR
 Title: Assessment and Evaluation of Formations in United
-Version: 0.2
+Version: 0.3
 Authors@R: person(given="David", family="Schindler", email="dv.schindler@gmail.com", role=c("aut","cre"))
 Description: United is a software tool which can be downloaded at the following
     website <http://www.schroepl.net/pbm/software/united/>. In general, it is
@@ -18,9 +18,10 @@ Collate: 'simRedCard.R' 'getLineup.R' 'formation.R'
         'unitedSimOne.R' 'unitedSim.R'
 Suggests: testthat, knitr
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2015-12-04 08:07:19 UTC; David Schindler
+Packaged: 2018-01-03 19:15:55 UTC; David
 Author: David Schindler [aut, cre]
 Maintainer: David Schindler <dv.schindler@gmail.com>
 Repository: CRAN
-Date/Publication: 2015-12-04 10:50:14
+Date/Publication: 2018-01-03 19:29:48 UTC
