@@ -1,6 +1,6 @@
 Package: unitedR
 Title: Assessment and Evaluation of Formations in United
-Version: 0.3
+Version: 0.3.1
 Authors@R: person(given="David", family="Schindler", email="dv.schindler@gmail.com", role=c("aut","cre"))
 Description: United is a software tool which can be downloaded at the following
     website <http://www.schroepl.net/pbm/software/united/>. In general, it is
@@ -20,8 +20,8 @@ Suggests: testthat, knitr
 VignetteBuilder: knitr
 RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2018-01-03 19:15:55 UTC; David
+Packaged: 2018-01-05 08:05:48 UTC; David
 Author: David Schindler [aut, cre]
 Maintainer: David Schindler <dv.schindler@gmail.com>
 Repository: CRAN
-Date/Publication: 2018-01-03 19:29:48 UTC
+Date/Publication: 2018-01-05 12:39:45 UTC

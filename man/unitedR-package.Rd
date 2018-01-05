@@ -12,7 +12,7 @@ Assessment and Evaluation of United Formations
 \tabular{ll}{
 Package: \tab unitedR \cr
 Type: \tab Package\cr
-Version: \tab 0.3 \cr
+Version: \tab 0.3.1 \cr
 Date: \tab 2018-01-03 \cr
 License: \tab GPL (>= 2)\cr
 LazyLoad: \tab yes \cr
