@@ -6,6 +6,10 @@
 \arguments{
 \item{away}{away team (an object of the \code{S4}class \code{formation})}
 
+\item{chancesAway}{goalscoring chances of away team}
+
+\item{chancesHome}{goalscoring chances of home team}
+
 \item{DF}{\code{numeric} vector for the strengths of the players in the 
 defense}
 
@@ -22,8 +26,13 @@ for yellow cards dependent on the used hardness}
 
 \item{homeAdv}{\code{numeric} vector of length five with integers for the used hardness}
 
+\item{L}{\code{list} with elements of class \code{formation}}
+
 \item{MF}{\code{numeric} vector for the strengths of the players in the 
 midfield}
+
+\item{overtime}{\code{logical}, if True overtime win probabilites are calculated. Only
+available if total hardness is zero or one.}
 
 \item{penaltyGoalProb}{probability of a goal by a singular penalty}
 
@@ -36,6 +45,14 @@ probability of preventing a goal by the goalkeeper}
 
 \item{preventGoalSW}{factor multiplicied with the strength of the SW for computing the 
 probability of preventing a goal by the sweeper}
+
+\item{probGoalAway}{probability of scoring a goal for away team}
+
+\item{probGoalHome}{probability of scoring a goal for home team}
+
+\item{probPenaltySaveAway}{probability of saving a penalty for away team}
+
+\item{probPenaltySaveHome}{probability of saving a penalty for home team}
 
 \item{r}{number of replications for the simulation of hardness and penalties, can 
 be \code{missing} (exact results will be computed)}

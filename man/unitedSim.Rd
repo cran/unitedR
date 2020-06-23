@@ -4,8 +4,17 @@
 \alias{unitedSim}
 \title{Simulating a formation}
 \usage{
-unitedSim(home, ..., r, penaltyProb = 0.1, preventGoalGK = 1/14,
-  preventGoalSW = 1/15, hardnessMatrix)
+unitedSim(
+  home,
+  ...,
+  r,
+  penaltyProb = 0.1,
+  preventGoalGK = 1/14,
+  preventGoalSW = 1/15,
+  hardnessMatrix,
+  L,
+  overtime = FALSE
+)
 }
 \arguments{
 \item{home}{home team (an object of the \code{S4}class \code{formation})}
@@ -25,6 +34,11 @@ probability of preventing a goal by the sweeper}
 
 \item{hardnessMatrix}{\code{matrix} matrix with eleven columns which contain the probability 
 for yellow cards dependent on the used hardness}
+
+\item{L}{\code{list} with elements of class \code{formation}}
+
+\item{overtime}{\code{logical}, if True overtime win probabilites are calculated. Only
+available if total hardness is zero or one.}
 }
 \value{
 Creates an object of the \code{unitedSim} class.
@@ -34,7 +48,7 @@ Simulates a formation against another formations (several formations of away are
 }
 \examples{
 home <- formation(10, NA, c(7,5,3), c(8,8), c(10,10,8))
-away <- formation(5, 8, c(8,8), c(10,10), c(10,10,10), 
+away <- formation(5, 8, c(8,8), c(10,10), c(10,10,10),
  hardness = c(0,0,0,0,1))
 set.seed(123)
 unitedSim(home, away)

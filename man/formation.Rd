@@ -4,8 +4,15 @@
 \alias{formation}
 \title{Representing a formation}
 \usage{
-formation(GK, SW, DF, MF, ST, hardness = c(0, 0, 0, 0, 0), homeAdv = c(0, 0,
-  0, 0, 0))
+formation(
+  GK,
+  SW,
+  DF,
+  MF,
+  ST,
+  hardness = c(0, 0, 0, 0, 0),
+  homeAdv = c(0, 0, 0, 0, 0)
+)
 }
 \arguments{
 \item{GK}{\code{integer} for the strength goalkeeper}
